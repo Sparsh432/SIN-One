@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #bbb;
+}
+
+.container {
+    margin: 0 auto;
+	padding: 2em;
+    text-align: left;
+    position: relative;
+}
+
+#title-container{
+	max-width: 600px;
+    margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+    border: 1px solid #000;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the same height as the navbar */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.8rem; /* Decreased font size */
+}
+
+.footer .instagram-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer .instagram-link:hover {
+    color: #bbb;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the same height as the navbar */
+}
+
+.footer1 p {
+    margin: 0;
+    font-size: 0.8rem; /* Decreased font size */
+}
+
+.footer1 .instagram-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer1 .instagram-link:hover {
+    color: #bbb;
+}
+
+.content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    margin-bottom: 1rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content ul {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* Increased gap between buttons */
+    padding: 2rem;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.grid-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.landing-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.landing-content {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.landing-image {
+    margin-top: 0;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.landing-text {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* Responsive navbar styles */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none; /* Hide by default for mobile */
+        flex-direction: column;
+        background-color: #000;
+        padding: 1rem;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+    }
+
+    .nav-links.show {
+        display: flex; /* Show when toggled */
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .button-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .grid-button {
+        width: 100%;
+        height: auto;
+    }
+}
