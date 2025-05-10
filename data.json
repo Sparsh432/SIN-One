@@ -513,7 +513,7 @@
       },
       {
         "name": "Dr. Gargi Patel",
-        "photo": "../Images/F3.jpg",
+        "photo": "../Images/F2.jpg",
         "degree": "MD (Physician)",
         "speciality": "General Physician",
         "experience": 32,
@@ -550,7 +550,7 @@
     "Homeopathy": [
       {
         "name": "Dr. E. Gupta",
-        "photo": "doctor-e-gupta.jpg",
+        "photo": "../Images/F1.jpg",
         "speciality": "General Physician",
         "experience": 14,
         "address": "101, Sunrise Complex, Navrangpura",
@@ -565,7 +565,7 @@
       },
       {
         "name": "Dr. F. Mehta",
-        "photo": "doctor-f-mehta.jpg",
+        "photo": "../Images/F2.jpg",
         "speciality": "Pediatrician",
         "experience": 9,
         "address": "102, Maple Street, Bodakdev",
@@ -582,7 +582,7 @@
     "Ayurvedic": [
       {
         "name": "Dr. G. Nair",
-        "photo": "doctor-g-nair.jpg",
+        "photo": "../Images/F1.jpg",
         "speciality": "Ayurvedic Consultant",
         "experience": 20,
         "address": "203, Ayurveda Marg, Kochi",
@@ -599,7 +599,7 @@
     "Veterinary": [
       {
         "name": "Dr. H. Verma",
-        "photo": "doctor-h-verma.jpg",
+        "photo": "../Images/F3.jpg",
         "speciality": "Animal Care",
         "experience": 10,
         "address": "12, Pet Lane, Koregaon Park",
