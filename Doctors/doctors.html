@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIN-Doctors</title>
+    <link rel="stylesheet" href="doctors.css">
+    <link rel="icon" href="../SIN-fevicon.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+	<nav class="navbar">
+        <div class="logo">
+            <a href="../index.html"><img src="../SIN-Logo-removebg.svg" alt="Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+	
+	<div class="container">
+		<div id="title-container">
+			<p>Doctors</p>
+		</div>
+	</div>
+	
+	<div class="button-grid">
+        <!--<a href="" class="grid-button">Allopathy</a>
+        Add more buttons if needed -->
+    </div>
+
+    <div id="doctor-popup" class="popup-overlay hidden">
+        <!--<div class="popup-box">
+            <span class="popup-close">&times;</span>
+            <img id="popup-photo" src="" alt="Doctor Photo">
+            <h2 id="popup-name"></h2>
+            <p id="popup-experience"></p>
+            <p id="popup-degree"></p>
+            <p id="popup-clinic-name"></p>
+            <p id="popup-address"></p>
+            <p id="popup-number"></p>
+            <p id="popup-fees"></p>
+            <p id="popup-timings"></p>
+            <a id="popup-map" href="#" target="_blank">View on Google Maps</a>
+        </div>-->
+
+        <div class="popup-box">
+        <span class="popup-close">&times;</span>
+        <img id="popup-photo" src="" alt="Doctor Photo">
+        <h2 id="popup-name"></h2>
+
+        <div class="popup-field"><strong>Experience:</strong> <span id="popup-experience"></span></div>
+        <div class="popup-field"><strong>Degree:</strong> <span id="popup-degree"></span></div>
+        <div class="popup-field"><strong>Clinic:</strong> <span id="popup-clinic-name"></span></div>
+        <div class="popup-field"><strong>Address:</strong> <span id="popup-address"></span></div>
+        <div class="popup-field"><strong>Clinic Number:</strong> <span id="popup-number"></span></div>
+        <div class="popup-field"><strong>Fees:</strong> <span id="popup-fees"></span></div>
+        <div class="popup-field"><strong>Timings:</strong> <span id="popup-timings"></span></div>
+        <div class="popup-field"><strong>Map:</strong> <a id="popup-map" href="#" target="_blank">View on Google Maps</a></div>
+    </div>
+    </div>
+	
+	<footer class="footer1">
+        <p>&copy; 2024 SIN-Education. All Rights Reserved</p>
+        <a href="https://www.instagram.com" target="_blank" class="instagram-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </footer>
+
+    <script defer src="doctors.js"></script>
+</body>
+</html>
